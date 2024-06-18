@@ -1,0 +1,330 @@
+---
+title: "Anfibios colombianos y sus sonidos"
+author: "Grupo Herpetológico de Antioquia"
+date: "version Junio 2024"
+output:
+  html_document: 
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
+    number_sections: false
+---
+
+```{css, echo=FALSE}
+
+h1 {
+  color: orange;
+}
+h2 {
+  color: darkgreen;
+}
+```
+
+# Introducción
+
+Este sitio está diseñado para visibilizar y disponibilizar los datos asociados a cantos de anuncio publicados de especies en Colombia. Los datos corresponden a los audios, las medidas realizadas por los investigadores y las tablas de selección generadas en el paquete [Raven](https://store.birds.cornell.edu/collections/raven-sound-software).
+
+Estos datos buscan varios objetivos:
+
+1.  La reproducibilidad de los resultados obtenidos en descripciones de cantos.
+
+2.  Ser reutilizados para nuevas descricpiones y estudios comparados
+
+3.  Ser reutilizados para el entrenamiento de algoritmos de inteligencia artificial para la detección automática de especies.
+
+4.  Apoyar cursos y prácticas en Bioacústica
+
+Este sitio es mantenido por una la comunidad herpetológica en Colombia interesada en el desarrollo de la bioacustica en el país.
+
+# Dendrobatidae
+
+## Leucostethus fraterdanieli {.tabset}
+
+### Descripción
+
+![MHUAA 4567](images/Sin%20ti%CC%81tulo-1.png){width="10cm"}
+
+Si utiliza los datos, cítese como:
+
+**Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.** 2018. A new species of *Leucostethus* (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of *Colostethus fraterdanieli*. *Zootaxa* 4461: 359--380. <https://doi.org/10.11646/zootaxa.4461.3.3.>
+
+### Espectrograma
+
+Contenido
+
+### Tablas
+
+Tabla de medidas
+
+Tabla de seleccion (Raven)
+
+### Audios
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+## Leucostethus jota {.tabset}
+
+### Descripción
+
+Aqui iria
+
+una foto,
+
+quiza un mapa
+
+y la citación de la publicación
+
+### Espectrograma
+
+Contenido
+
+### Tablas
+
+Tabla de medidas
+
+Tabla de seleccion (Raven)
+
+### Audios
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+# Eleutherodactylidae
+
+## Diasporus anthrax {.tabset}
+
+### Descripción
+
+Aqui iria
+
+una foto,
+
+quiza un mapa
+
+y la citación de la publicación
+
+### Espectrograma
+
+Contenido
+
+### Tablas
+
+Tabla de medidas
+
+Tabla de seleccion (Raven)
+
+### Audios
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+# Strabomantidae
+
+## Pristimantis campesino {.tabset}
+
+### Descripción
+
+Aqui iria
+
+una foto,
+
+quiza un mapa
+
+y la citación de la publicación
+
+### Espectrograma
+
+Contenido
+
+### Tablas
+
+Tabla de medidas
+
+Tabla de seleccion (Raven)
+
+### Audios
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+## Pristimantis cryptopictus {.tabset}
+
+### Descripción
+
+Aqui iria
+
+una foto,
+
+quiza un mapa
+
+y la citación de la publicación
+
+### Espectrograma
+
+Contenido
+
+### Tablas
+
+Tabla de medidas
+
+Tabla de seleccion (Raven)
+
+### Audios
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+## Pristimantis dorsopictus {.tabset}
+
+### Descripción
+
+Aqui iria
+
+una foto,
+
+quiza un mapa
+
+y la citación de la publicación
+
+### Espectrograma
+
+Contenido
+
+### Tablas
+
+Tabla de medidas
+
+Tabla de seleccion (Raven)
+
+### Audios
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+## Pristimantis jaguensis {.tabset}
+
+### Descripción
+
+Aqui iria
+
+una foto,
+
+quiza un mapa
+
+y la citación de la publicación
+
+### Espectrograma
+
+Contenido
+
+### Tablas
+
+Tabla de medidas
+
+Tabla de seleccion (Raven)
+
+### Audios
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+## Pristimantis viejas {.tabset}
+
+### Descripción
+
+Aqui iria
+
+una foto,
+
+quiza un mapa
+
+y la citación de la publicación
+
+### Espectrograma
+
+Contenido
+
+### Tablas
+
+Tabla de medidas
+
+Tabla de seleccion (Raven)
+
+### Audios
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+## Pristimantis zorro {.tabset}
+
+### Descripción
+
+Aqui iria
+
+una foto,
+
+quiza un mapa
+
+y la citación de la publicación
+
+### Espectrograma
+
+Contenido
+
+### Tablas
+
+Tabla de medidas
+
+Tabla de seleccion (Raven)
+
+### Audios
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
+
+audio1.wav
