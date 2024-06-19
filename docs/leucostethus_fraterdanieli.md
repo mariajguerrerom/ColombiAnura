@@ -49,22 +49,6 @@ function openTab(evt, tabName) {
 }
 </script>
 
-<script>
-function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-
 ## Leucostethus fraterdanieli
 
 <div class="tab">
@@ -76,7 +60,7 @@ function openTab(evt, tabName) {
 
 <div id="DescripcionL" class="tabcontent">
   <h3>Descripción</h3>
-  <img src="images/Sin_titulo_1.png" alt="MHUA-A12478" style="width:10cm;">
+  <img src="images/Sin_titulo_1.png" alt="MHUAA 4567" style="width:10cm;">
   <p>Si utiliza los datos, cítese como:</p>
   <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
 </div>
@@ -95,12 +79,11 @@ function openTab(evt, tabName) {
 <div id="AudiosL" class="tabcontent">
   <h3>Audios</h3>
   <audio controls>
-    <source src="Audios/JAGUAS259_20130118_125515.wavs" type="audio/wav">
+    <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
     Tu navegador no soporta el elemento de audio.
   </audio>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
+  <audio controls>
+    <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
 </div>
-
