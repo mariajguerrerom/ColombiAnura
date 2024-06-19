@@ -62,6 +62,11 @@ function openTab(evt, tabName) {
 }
 </script>
 
+
+# Anfibios colombianos y sus sonidos
+### Grupo Herpetológico de Antioquia
+### version Junio 2024
+
 # Introducción
 
 Este sitio está diseñado para visibilizar y disponibilizar los datos asociados a cantos de anuncio publicados de especies en Colombia. Los datos corresponden a los audios, las medidas realizadas por los investigadores y las tablas de selección generadas en el paquete [Raven](https://store.birds.cornell.edu/collections/raven-sound-software).
@@ -91,7 +96,7 @@ Este sitio es mantenido por una la comunidad herpetológica en Colombia interesa
 
 <div id="DescripcionL" class="tabcontent">
   <h3>Descripción</h3>
-  <img src="images/Sin%20ti%CC%81tulo-1.png" alt="MHUAA 4567" style="width:10cm;">
+  <img src="/docs/images/Sin_titulo-1.png" alt="MHUAA 4567" style="width:10cm;">
   <p>Si utiliza los datos, cítese como:</p>
   <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
 </div>
