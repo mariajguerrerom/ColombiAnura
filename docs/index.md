@@ -58,17 +58,17 @@ Este sitio es mantenido por una la comunidad herpetológica en Colombia interesa
 # Dendrobatidae
 
 - [Leucostethus fraterdanieli](leucostethus_fraterdanieli.md)
-- [Leucostethus jota](leucostethus_jota.md)
+- [Leucostethus jota](Leucostethus_jota.md)
 
 # Eleutherodactylidae
 
-- [Diasporus anthrax](diasporus_anthrax.md)
+- [Diasporus anthrax](Diasporus_anthrax.md)
 
 # Strabomantidae
 
-- [Pristimantis campesino](pristimantis_campesino.md)
-- [Pristimantis cryptopictus](pristimantis_cryptopictus.md)
-- [Pristimantis dorsopictus](pristimantis_dorsopictus.md)
-- [Pristimantis jaguensis](pristimantis_jaguensis.md)
-- [Pristimantis viejas](pristimantis_viejas.md)
-- [Pristimantis zorro](pristimantis_zorro.md)
+- [Pristimantis campesino](Pristimantis_campesino.md)
+- [Pristimantis cryptopictus](Pristimantis_cryptopictus.md)
+- [Pristimantis dorsopictus](Pristimantis_dorsopictus.md)
+- [Pristimantis jaguensis](Pristimantis_jaguensis.md)
+- [Pristimantis viejas](Pristimantis_viejas.md)
+- [Pristimantis zorro](Pristimantis_zorro.md)
