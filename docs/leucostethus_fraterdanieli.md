@@ -31,6 +31,14 @@ output: html_document
   border: 1px solid #ccc;
   border-top: none;
 }
+/* CSS para audios */
+.audio-container {
+  display: flex;
+  flex-direction: column;
+}
+.audio-container audio {
+  margin-bottom: 10px;
+}
 </style>
 
 <script>
@@ -78,12 +86,15 @@ function openTab(evt, tabName) {
 
 <div id="AudiosL" class="tabcontent">
   <h3>Audios</h3>
-  <audio controls>
-    <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
-    Tu navegador no soporta el elemento de audio.
-  </audio>
-  <audio controls>
-    <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
-    Tu navegador no soporta el elemento de audio.
-  </audio>
+  <div class="audio-container">
+    <audio controls>
+      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    <audio controls>
+      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
 </div>
+
