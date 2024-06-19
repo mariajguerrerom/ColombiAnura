@@ -49,6 +49,22 @@ function openTab(evt, tabName) {
 }
 </script>
 
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
 ## Leucostethus fraterdanieli
 
 <div class="tab">
@@ -78,6 +94,10 @@ function openTab(evt, tabName) {
 
 <div id="AudiosL" class="tabcontent">
   <h3>Audios</h3>
+  <audio controls>
+    <source src="audios/JAGUAS259_20130118_125515.wavs" type="audio/wav">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
   <p>audio1.wav</p>
   <p>audio1.wav</p>
   <p>audio1.wav</p>
