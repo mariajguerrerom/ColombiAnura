@@ -14,9 +14,24 @@ output:
 <style>
 h1 {
   color: orange;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 h2 {
   color: darkgreen;
+}
+.title {
+  font-size: 3em;
+  color: orange;
+  font-weight: bold;
+}
+.author {
+  font-size: 1.5em;
+  color: black;
+}
+.date {
+  font-size: 1.2em;
+  color: gray;
 }
 .tab {
   overflow: hidden;
@@ -62,7 +77,6 @@ function openTab(evt, tabName) {
 }
 </script>
 
-
 # Anfibios colombianos y sus sonidos
 ### Grupo Herpetológico de Antioquia
 ### version Junio 2024
@@ -85,329 +99,18 @@ Este sitio es mantenido por una la comunidad herpetológica en Colombia interesa
 
 # Dendrobatidae
 
-## Leucostethus fraterdanieli
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionL')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaL')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasL')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosL')">Audios</button>
-</div>
-
-<div id="DescripcionL" class="tabcontent">
-  <h3>Descripción</h3>
-  <img src="/docs/images/Sin_titulo-1.png" alt="MHUAA 4567" style="width:10cm;">
-  <p>Si utiliza los datos, cítese como:</p>
-  <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
-</div>
-
-<div id="EspectrogramaL" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <p>Contenido</p>
-</div>
-
-<div id="TablasL" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
-
-<div id="AudiosL" class="tabcontent">
-  <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-</div>
-
-## Leucostethus jota
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionJ')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaJ')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasJ')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosJ')">Audios</button>
-</div>
-
-<div id="DescripcionJ" class="tabcontent">
-  <h3>Descripción</h3>
-  <p>Aqui iria</p>
-  <p>una foto,</p>
-  <p>quiza un mapa</p>
-  <p>y la citación de la publicación</p>
-</div>
-
-<div id="EspectrogramaJ" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <p>Contenido</p>
-</div>
-
-<div id="TablasJ" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
-
-<div id="AudiosJ" class="tabcontent">
-  <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-</div>
+- [Leucostethus fraterdanieli](leucostethus_fraterdanieli.md)
+- [Leucostethus jota](leucostethus_jota.md)
 
 # Eleutherodactylidae
 
-## Diasporus anthrax
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionD')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaD')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasD')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosD')">Audios</button>
-</div>
-
-<div id="DescripcionD" class="tabcontent">
-  <h3>Descripción</h3>
-  <p>Aqui iria</p>
-  <p>una foto,</p>
-  <p>quiza un mapa</p>
-  <p>y la citación de la publicación</p>
-</div>
-
-<div id="EspectrogramaD" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <p>Contenido</p>
-</div>
-
-<div id="TablasD" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
-
-<div id="AudiosD" class="tabcontent">
-  <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-</div>
+- [Diasporus anthrax](diasporus_anthrax.md)
 
 # Strabomantidae
 
-## Pristimantis campesino
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionC')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaC')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasC')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosC')">Audios</button>
-</div>
-
-<div id="DescripcionC" class="tabcontent">
-  <h3>Descripción</h3>
-  <p>Aqui iria</p>
-  <p>una foto,</p>
-  <p>quiza un mapa</p>
-  <p>y la citación de la publicación</p>
-</div>
-
-<div id="EspectrogramaC" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <p>Contenido</p>
-</div>
-
-<div id="TablasC" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
-
-<div id="AudiosC" class="tabcontent">
-  <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-</div>
-
-## Pristimantis cryptopictus
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionP1')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaP1')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasP1')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosP1')">Audios</button>
-</div>
-
-<div id="DescripcionP1" class="tabcontent">
-  <h3>Descripción</h3>
-  <p>Aqui iria</p>
-  <p>una foto,</p>
-  <p>quiza un mapa</p>
-  <p>y la citación de la publicación</p>
-</div>
-
-<div id="EspectrogramaP1" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <p>Contenido</p>
-</div>
-
-<div id="TablasP1" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
-
-<div id="AudiosP1" class="tabcontent">
-  <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-</div>
-
-## Pristimantis dorsopictus
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionP2')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaP2')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasP2')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosP2')">Audios</button>
-</div>
-
-<div id="DescripcionP2" class="tabcontent">
-  <h3>Descripción</h3>
-  <p>Aqui iria</p>
-  <p>una foto,</p>
-  <p>quiza un mapa</p>
-  <p>y la citación de la publicación</p>
-</div>
-
-<div id="EspectrogramaP2" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <p>Contenido</p>
-</div>
-
-<div id="TablasP2" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
-
-<div id="AudiosP2" class="tabcontent">
-  <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-</div>
-
-## Pristimantis jaguensis
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionP3')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaP3')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasP3')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosP3')">Audios</button>
-</div>
-
-<div id="DescripcionP3" class="tabcontent">
-  <h3>Descripción</h3>
-  <p>Aqui iria</p>
-  <p>una foto,</p>
-  <p>quiza un mapa</p>
-  <p>y la citación de la publicación</p>
-</div>
-
-<div id="EspectrogramaP3" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <p>Contenido</p>
-</div>
-
-<div id="TablasP3" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
-
-<div id="AudiosP3" class="tabcontent">
-  <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-</div>
-
-## Pristimantis viejas
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionP4')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaP4')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasP4')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosP4')">Audios</button>
-</div>
-
-<div id="DescripcionP4" class="tabcontent">
-  <h3>Descripción</h3>
-  <p>Aqui iria</p>
-  <p>una foto,</p>
-  <p>quiza un mapa</p>
-  <p>y la citación de la publicación</p>
-</div>
-
-<div id="EspectrogramaP4" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <p>Contenido</p>
-</div>
-
-<div id="TablasP4" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
-
-<div id="AudiosP4" class="tabcontent">
-  <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-</div>
-
-## Pristimantis zorro
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionP5')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaP5')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasP5')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosP5')">Audios</button>
-</div>
-
-<div id="DescripcionP5" class="tabcontent">
-  <h3>Descripción</h3>
-  <p>Aqui iria</p>
-  <p>una foto,</p>
-  <p>quiza un mapa</p>
-  <p>y la citación de la publicación</p>
-</div>
-
-<div id="EspectrogramaP5" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <p>Contenido</p>
-</div>
-
-<div id="TablasP5" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
-
-<div id="AudiosP5" class="tabcontent">
-  <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-</div>
+- [Pristimantis campesino](pristimantis_campesino.md)
+- [Pristimantis cryptopictus](pristimantis_cryptopictus.md)
+- [Pristimantis dorsopictus](pristimantis_dorsopictus.md)
+- [Pristimantis jaguensis](pristimantis_jaguensis.md)
+- [Pristimantis viejas](pristimantis_viejas.md)
+- [Pristimantis zorro](pristimantis_zorro.md)
