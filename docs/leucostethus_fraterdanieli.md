@@ -75,7 +75,7 @@ function openTab(evt, tabName) {
 
 <div id="EspectrogramaL" class="tabcontent">
   <h3>Espectrograma</h3>
-  <p>Contenido</p>
+  <img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;">
 </div>
 
 <div id="TablasL" class="tabcontent">
@@ -97,4 +97,5 @@ function openTab(evt, tabName) {
     </audio>
   </div>
 </div>
+
 
