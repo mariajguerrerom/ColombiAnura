@@ -59,3 +59,27 @@ function openTab(evt, tabName) {
 </div>
 
 <div id="DescripcionP1" class="tabcontent">
+  <h3>Descripción</h3>
+  <img src="/docs/images/MHUA-A12478_Pristimantis_cryptopictus.JPG" alt="MHUA-A12478 Pristimantis cryptopictus" style="width:10cm;">
+  <p>Si utiliza los datos, cítese como:</p>
+  <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
+</div>
+
+<div id="EspectrogramaP1" class="tabcontent">
+  <h3>Espectrograma</h3>
+  <p>Contenido</p>
+</div>
+
+<div id="TablasP1" class="tabcontent">
+  <h3>Tablas</h3>
+  <p>Tabla de medidas</p>
+  <p>Tabla de seleccion (Raven)</p>
+</div>
+
+<div id="AudiosP1" class="tabcontent">
+  <h3>Audios</h3>
+  <p>audio1.wav</p>
+  <p>audio1.wav</p>
+  <p>audio1.wav</p>
+  <p>audio1.wav</p>
+</div>

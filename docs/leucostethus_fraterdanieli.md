@@ -95,7 +95,7 @@ function openTab(evt, tabName) {
 <div id="AudiosL" class="tabcontent">
   <h3>Audios</h3>
   <audio controls>
-    <source src="audios/JAGUAS259_20130118_125515.wavs" type="audio/wav">
+    <source src="Audios/JAGUAS259_20130118_125515.wavs" type="audio/wav">
     Tu navegador no soporta el elemento de audio.
   </audio>
   <p>audio1.wav</p>
