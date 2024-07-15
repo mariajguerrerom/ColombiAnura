@@ -3,6 +3,7 @@ title: "Leucostethus jota"
 output: html_document
 ---
 
+```{=html}
 <style>
 /* CSS para las pestañas */
 .tab {
@@ -31,8 +32,17 @@ output: html_document
   border: 1px solid #ccc;
   border-top: none;
 }
+/* CSS para audios */
+.audio-container {
+  display: flex;
+  flex-direction: column;
+}
+.audio-container audio {
+  margin-bottom: 10px;
+}
 </style>
-
+```
+```{=html}
 <script>
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
@@ -48,37 +58,60 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 </script>
-
+```
 ## Leucostethus jota
 
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionJ')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaJ')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasJ')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosJ')">Audios</button>
-</div>
+::: tab
+<button class="tablinks" onclick="openTab(event, &#39;DescripcionL&#39;)">
 
-<div id="DescripcionJ" class="tabcontent">
-  <h3>Descripción</h3>
-  <img src="images/JMD2048_Leucostethus_jota.png" alt="Leucostethus jota" style="width:10cm;">
-  <p>Descripción detallada de Leucostethus jota.</p>
-</div>
+Descripción
 
-<div id="EspectrogramaJ" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <p>Contenido del espectrograma para Leucostethus jota.</p>
-</div>
+</button>
 
-<div id="TablasJ" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
+<button class="tablinks" onclick="openTab(event, &#39;EspectrogramaL&#39;)">
 
-<div id="AudiosJ" class="tabcontent">
-  <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-</div>
+Espectrograma
+
+</button>
+
+<button class="tablinks" onclick="openTab(event, 'TablasL')">Tablas</button> <button class="tablinks" onclick="openTab(event, 'AudiosL')">Audios</button>
+:::
+
+::: {#DescripcionL .tabcontent}
+<h3>Descripción</h3>
+
+<img src="images/Leucostethus_jota.png" alt="Leucostethus jota" style="width:10cm;"/>
+
+<p>Si utiliza los datos, cítese como:</p>
+
+<p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
+:::
+
+::: {#EspectrogramaL .tabcontent}
+<h3>Espectrograma</h3>
+
+<img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;"/>
+:::
+
+::: {#TablasL .tabcontent}
+<h3>Tablas</h3>
+
+<p>Tabla de medidas</p>
+
+<p>Tabla de seleccion (Raven)</p>
+:::
+
+::: {#AudiosL .tabcontent}
+<h3>Audios</h3>
+
+::: audio-container
+    <audio controls>
+      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    <audio controls>
+      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+:::
+:::
