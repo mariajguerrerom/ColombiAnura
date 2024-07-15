@@ -3,7 +3,7 @@ title: "Leucostethus jota"
 output: html_document
 ---
 
-```{=html}
+{=html}
 <style>
 /* CSS para las pestañas */
 .tab {
@@ -41,8 +41,8 @@ output: html_document
   margin-bottom: 10px;
 }
 </style>
-```
-```{=html}
+
+{=html}
 <script>
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
@@ -58,7 +58,7 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 </script>
-```
+
 ## Leucostethus jota
 
 ::: tab
