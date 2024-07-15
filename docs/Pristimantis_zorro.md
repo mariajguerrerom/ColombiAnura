@@ -1,7 +1,9 @@
 ---
-title: "Pristimantis zorro"
+title: "Leucostethus zorro"
 output: html_document
 ---
+
+
 <style>
 /* CSS para las pestañas */
 .tab {
@@ -30,7 +32,16 @@ output: html_document
   border: 1px solid #ccc;
   border-top: none;
 }
+/* CSS para audios */
+.audio-container {
+  display: flex;
+  flex-direction: column;
+}
+.audio-container audio {
+  margin-bottom: 10px;
+}
 </style>
+
 
 <script>
 function openTab(evt, tabName) {
@@ -48,7 +59,7 @@ function openTab(evt, tabName) {
 }
 </script>
 
-## Pristimantis zorro
+## Leucostethus zorro
 
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'DescripcionL')">Descripción</button>
@@ -59,14 +70,16 @@ function openTab(evt, tabName) {
 
 <div id="DescripcionL" class="tabcontent">
   <h3>Descripción</h3>
-  <img src="/docs/images/MHUAA12478_Pristimantis_cryptopictus.JPG" alt="MHUA-A12478 Pristimantis cryptopictus" style="width:10cm;">
+  <img src="images/MHUA-A8813_Pristimantis_zorro.png" alt="Pristimantis zorro" style="width:10cm;">
+
   <p>Si utiliza los datos, cítese como:</p>
+
   <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
 </div>
 
 <div id="EspectrogramaL" class="tabcontent">
   <h3>Espectrograma</h3>
-  <p>Contenido</p>
+  <img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;">
 </div>
 
 <div id="TablasL" class="tabcontent">
@@ -77,8 +90,17 @@ function openTab(evt, tabName) {
 
 <div id="AudiosL" class="tabcontent">
   <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
+  <div class="audio-container">
+    <audio controls>
+      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    <audio controls>
+      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
 </div>
+
+
+

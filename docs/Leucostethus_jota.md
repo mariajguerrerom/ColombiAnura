@@ -74,33 +74,4 @@ function openTab(evt, tabName) {
 
   <p>Si utiliza los datos, cítese como:</p>
 
-  <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
-</div>
-
-<div id="EspectrogramaL" class="tabcontent">
-  <h3>Espectrograma</h3>
-  <img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;">
-</div>
-
-<div id="TablasL" class="tabcontent">
-  <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
-</div>
-
-<div id="AudiosL" class="tabcontent">
-  <h3>Audios</h3>
-  <div class="audio-container">
-    <audio controls>
-      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
-      Tu navegador no soporta el elemento de audio.
-    </audio>
-    <audio controls>
-      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
-      Tu navegador no soporta el elemento de audio.
-    </audio>
-  </div>
-</div>
-
-
-
+  <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>

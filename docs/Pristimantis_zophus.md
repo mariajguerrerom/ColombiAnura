@@ -1,5 +1,5 @@
 ---
-title: "Pristimantis campesino"
+title: "Pristimantis zophus"
 output: html_document
 ---
 
@@ -49,7 +49,7 @@ function openTab(evt, tabName) {
 }
 </script>
 
-## Pristimantis campesino
+## Pristimantis zophus
 
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'DescripcionC')">Descripción</button>
@@ -60,13 +60,16 @@ function openTab(evt, tabName) {
 
 <div id="DescripcionC" class="tabcontent">
   <h3>Descripción</h3>
-  <img src="/docs/images/MHUAAXXXXXX_Pristimantis_campesino.JPG" alt="Pristimantis campesino" style="width:10cm;">
-  <p>Descripción detallada de Pristimantis campesino.</p>
+  <img src="/docs/images/MHUA-A8988_Pristimantis_zophus.JPG" alt="Pristimantis zophus" style="width:10cm;">
+
+ <p>Si utiliza los datos, cítese como:</p>
+
+  <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
 </div>
 
 <div id="EspectrogramaC" class="tabcontent">
   <h3>Espectrograma</h3>
-  <p>Contenido del espectrograma para Pristimantis campesino.</p>
+  <img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;">
 </div>
 
 <div id="TablasC" class="tabcontent">
@@ -77,8 +80,14 @@ function openTab(evt, tabName) {
 
 <div id="AudiosC" class="tabcontent">
   <h3>Audios</h3>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
-  <p>audio1.wav</p>
+<div class="audio-container">
+    <audio controls>
+      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    <audio controls>
+      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
 </div>
