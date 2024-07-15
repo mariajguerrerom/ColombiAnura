@@ -80,7 +80,7 @@ Espectrograma
 ::: {#DescripcionL .tabcontent}
 <h3>Descripción</h3>
 
-<img src="images/Leucostethus_jota.png" alt="Leucostethus jota" style="width:10cm;"/>
+<img src="images/JMD2048_Leucostethus_jota.png" alt="Leucostethus jota" style="width:10cm;"/>
 
 <p>Si utiliza los datos, cítese como:</p>
 
