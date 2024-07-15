@@ -3,7 +3,7 @@ title: "Leucostethus jota"
 output: html_document
 ---
 
-{=html}
+
 <style>
 /* CSS para las pestañas */
 .tab {
@@ -42,7 +42,7 @@ output: html_document
 }
 </style>
 
-{=html}
+
 <script>
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
@@ -61,50 +61,36 @@ function openTab(evt, tabName) {
 
 ## Leucostethus jota
 
-::: tab
-<button class="tablinks" onclick="openTab(event, &#39;DescripcionL&#39;)">
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'DescripcionL')">Descripción</button>
+  <button class="tablinks" onclick="openTab(event, 'EspectrogramaL')">Espectrograma</button>
+  <button class="tablinks" onclick="openTab(event, 'TablasL')">Tablas</button>
+  <button class="tablinks" onclick="openTab(event, 'AudiosL')">Audios</button>
+</div>
 
-Descripción
+<div id="DescripcionL" class="tabcontent">
+  <h3>Descripción</h3>
+  <img src="images/JMD2048_Leucostethus_jota.png" alt="Leucostethus jota" style="width:10cm;">
 
-</button>
+  <p>Si utiliza los datos, cítese como:</p>
 
-<button class="tablinks" onclick="openTab(event, &#39;EspectrogramaL&#39;)">
+  <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
+</div>
 
-Espectrograma
+<div id="EspectrogramaL" class="tabcontent">
+  <h3>Espectrograma</h3>
+  <img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;">
+</div>
 
-</button>
+<div id="TablasL" class="tabcontent">
+  <h3>Tablas</h3>
+  <p>Tabla de medidas</p>
+  <p>Tabla de seleccion (Raven)</p>
+</div>
 
-<button class="tablinks" onclick="openTab(event, 'TablasL')">Tablas</button> <button class="tablinks" onclick="openTab(event, 'AudiosL')">Audios</button>
-:::
-
-::: {#DescripcionL .tabcontent}
-<h3>Descripción</h3>
-
-<img src="images/JMD2048_Leucostethus_jota.png" alt="Leucostethus jota" style="width:10cm;"/>
-
-<p>Si utiliza los datos, cítese como:</p>
-
-<p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
-:::
-
-::: {#EspectrogramaL .tabcontent}
-<h3>Espectrograma</h3>
-
-<img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;"/>
-:::
-
-::: {#TablasL .tabcontent}
-<h3>Tablas</h3>
-
-<p>Tabla de medidas</p>
-
-<p>Tabla de seleccion (Raven)</p>
-:::
-
-::: {#AudiosL .tabcontent}
-<h3>Audios</h3>
-
-::: audio-container
+<div id="AudiosL" class="tabcontent">
+  <h3>Audios</h3>
+  <div class="audio-container">
     <audio controls>
       <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
       Tu navegador no soporta el elemento de audio.
@@ -113,5 +99,8 @@ Espectrograma
       <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
       Tu navegador no soporta el elemento de audio.
     </audio>
-:::
-:::
+  </div>
+</div>
+
+
+
