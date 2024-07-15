@@ -49,45 +49,42 @@ function openTab(evt, tabName) {
 }
 </script>
 
-## Pristimantis zophus
+## Pristimantis viejas
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionC')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaC')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasC')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosC')">Audios</button>
+  <button class="tablinks" onclick="openTab(event, 'DescripcionZ')">Descripción</button>
+  <button class="tablinks" onclick="openTab(event, 'EspectrogramaZ')">Espectrograma</button>
+  <button class="tablinks" onclick="openTab(event, 'TablasZ')">Tablas</button>
+  <button class="tablinks" onclick="openTab(event, 'AudiosZ')">Audios</button>
 </div>
 
-<div id="DescripcionC" class="tabcontent">
+<div id="DescripcionZ" class="tabcontent">
   <h3>Descripción</h3>
-  <img src="images/MHUA-A8988_Pristimantis_zophus.JPG" alt="Pristimantis zophus" style="width:10cm;">
+  <img src="images/MHUA-A8988_Pristimantis_zophus.JPG" alt="Pristimantis viejas" style="width:10cm;">
 
- <p>Si utiliza los datos, cítese como:</p>
+  <p>Si utiliza los datos, cítese como:</p>
 
   <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
 </div>
 
-<div id="EspectrogramaC" class="tabcontent">
+<div id="EspectrogramaZ" class="tabcontent">
   <h3>Espectrograma</h3>
   <img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;">
 </div>
 
-<div id="TablasC" class="tabcontent">
+<div id="TablasZ" class="tabcontent">
   <h3>Tablas</h3>
   <p>Tabla de medidas</p>
   <p>Tabla de seleccion (Raven)</p>
 </div>
 
-<div id="AudiosC" class="tabcontent">
+<div id="AudiosZ" class="tabcontent">
   <h3>Audios</h3>
-<div class="audio-container">
+  <div class="audio-container">
     <audio controls>
-      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
-      Tu navegador no soporta el elemento de audio.
-    </audio>
-    <audio controls>
-      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      <source src="Audios/MHUA-A8988_Pristimantis_zophus.wav" type="audio/wav">
       Tu navegador no soporta el elemento de audio.
     </audio>
   </div>
+  <p>Más audios disponibles <a href="https://www.dropbox.com/scl/fo/3e0geqsqrevgn5h0uhyva/ABWC4lbYqpfFH-6L4Og6mQI?rlkey=tuiauwycw0lw58n9co6fncgaw&e=1&dl=0">aquí</a>.</p>
 </div>
