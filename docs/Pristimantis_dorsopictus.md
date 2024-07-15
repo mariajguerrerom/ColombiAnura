@@ -51,33 +51,33 @@ function openTab(evt, tabName) {
 ## Pristimantis dorsopictus
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionL')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaL')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasL')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosL')">Audios</button>
+  <button class="tablinks" onclick="openTab(event, 'DescripcionD')">Descripción</button>
+  <button class="tablinks" onclick="openTab(event, 'EspectrogramaD')">Espectrograma</button>
+  <button class="tablinks" onclick="openTab(event, 'TablasD')">Tablas</button>
+  <button class="tablinks" onclick="openTab(event, 'AudiosD')">Audios</button>
 </div>
 
-<div id="DescripcionL" class="tabcontent">
+<div id="DescripcionD" class="tabcontent">
   <h3>Descripción</h3>
   <img src="/docs/images/MHUA-A12492_Pristimantis_dorsopictus.JPG" alt="MHUA-A12478 Pristimantis dorsopictus" style="width:10cm;">
 
   <p>Si utiliza los datos, cítese como:</p>
-  
+
   <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
 </div>
 
-<div id="EspectrogramaL" class="tabcontent">
+<div id="EspectrogramaD" class="tabcontent">
   <h3>Espectrograma</h3>
   <img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;">
 </div>
 
-<div id="TablasL" class="tabcontent">
+<div id="TablasD" class="tabcontent">
   <h3>Tablas</h3>
   <p>Tabla de medidas</p>
   <p>Tabla de seleccion (Raven)</p>
 </div>
 
-<div id="AudiosL" class="tabcontent">
+<div id="AudiosD" class="tabcontent">
   <h3>Audios</h3>
   <div class="audio-container">
     <audio controls>

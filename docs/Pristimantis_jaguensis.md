@@ -51,33 +51,33 @@ function openTab(evt, tabName) {
 ## Pristimantis jaguensis
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionL')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaL')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasL')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosL')">Audios</button>
+  <button class="tablinks" onclick="openTab(event, 'DescripcionJ2')">Descripción</button>
+  <button class="tablinks" onclick="openTab(event, 'EspectrogramaJ2')">Espectrograma</button>
+  <button class="tablinks" onclick="openTab(event, 'TablasJ2')">Tablas</button>
+  <button class="tablinks" onclick="openTab(event, 'AudiosJ2')">Audios</button>
 </div>
 
-<div id="DescripcionL" class="tabcontent">
+<div id="DescripcionJ2" class="tabcontent">
   <h3>Descripción</h3>
-  <img src="/docs/images/MHUA-A12248_Pristimantis_jaguensisJPG" alt="MHUA-A12478 Pristimantis jaguensis" style="width:10cm;">
+  <img src="/docs/images/MHUA-A12248_Pristimantis_jaguensis.JPG" alt="MHUA-A12478 Pristimantis jaguensis" style="width:10cm;">
 
   <p>Si utiliza los datos, cítese como:</p>
 
   <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
 </div>
 
-<div id="EspectrogramaL" class="tabcontent">
+<div id="EspectrogramaJ2" class="tabcontent">
   <h3>Espectrograma</h3>
   <img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;">
 </div>
 
-<div id="TablasL" class="tabcontent">
+<div id="TablasJ2" class="tabcontent">
   <h3>Tablas</h3>
   <p>Tabla de medidas</p>
   <p>Tabla de seleccion (Raven)</p>
 </div>
 
-<div id="AudiosL" class="tabcontent">
+<div id="AudiosJ2" class="tabcontent">
   <h3>Audios</h3>
   <div class="audio-container">
     <audio controls>

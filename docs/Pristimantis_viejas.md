@@ -51,13 +51,13 @@ function openTab(evt, tabName) {
 ## Pristimantis viejas
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'DescripcionL')">Descripción</button>
-  <button class="tablinks" onclick="openTab(event, 'EspectrogramaL')">Espectrograma</button>
-  <button class="tablinks" onclick="openTab(event, 'TablasL')">Tablas</button>
-  <button class="tablinks" onclick="openTab(event, 'AudiosL')">Audios</button>
+  <button class="tablinks" onclick="openTab(event, 'DescripcionV')">Descripción</button>
+  <button class="tablinks" onclick="openTab(event, 'EspectrogramaV')">Espectrograma</button>
+  <button class="tablinks" onclick="openTab(event, 'TablasV')">Tablas</button>
+  <button class="tablinks" onclick="openTab(event, 'AudiosV')">Audios</button>
 </div>
 
-<div id="DescripcionL" class="tabcontent">
+<div id="DescripcionV" class="tabcontent">
   <h3>Descripción</h3>
   <img src="/docs/images/MHUAA11468_Pristimantis_viejas.JPG" alt="Pristimantis viejas" style="width:10cm;">
 
@@ -66,18 +66,18 @@ function openTab(evt, tabName) {
   <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
 </div>
 
-<div id="EspectrogramaL" class="tabcontent">
+<div id="EspectrogramaV" class="tabcontent">
   <h3>Espectrograma</h3>
   <img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;">
 </div>
 
-<div id="TablasL" class="tabcontent">
+<div id="TablasV" class="tabcontent">
   <h3>Tablas</h3>
   <p>Tabla de medidas</p>
   <p>Tabla de seleccion (Raven)</p>
-</div>
+</div>S
 
-<div id="AudiosL" class="tabcontent">
+<div id="AudiosV" class="tabcontent">
   <h3>Audios</h3>
   <div class="audio-container">
     <audio controls>

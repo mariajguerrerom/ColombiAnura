@@ -1,7 +1,7 @@
 ---
 title: "Anfibios colombianos y sus sonidos"
 author: "Grupo Herpetológico de Antioquia"
-date: "version Junio 2024"
+date: "version Julio 2024"
 output:
   html_document: 
     toc: true
@@ -66,7 +66,7 @@ Este sitio es mantenido por una la comunidad herpetológica en Colombia interesa
 
 # Strabomantidae
 
-- [Pristimantis campesino](Pristimantis_campesino.md)
+- [Pristimantis zophus](Pristimantis_zophus.md)
 - [Pristimantis cryptopictus](Pristimantis_cryptopictus.md)
 - [Pristimantis dorsopictus](Pristimantis_dorsopictus.md)
 - [Pristimantis jaguensis](Pristimantis_jaguensis.md)
