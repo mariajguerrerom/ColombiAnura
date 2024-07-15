@@ -60,7 +60,7 @@ function openTab(evt, tabName) {
 
 <div id="DescripcionC" class="tabcontent">
   <h3>Descripción</h3>
-  <img src="/docs/images/MHUA-A8988_Pristimantis_zophus.JPG" alt="Pristimantis zophus" style="width:10cm;">
+  <img src="images/MHUA-A8988_Pristimantis_zophus.JPG" alt="Pristimantis zophus" style="width:10cm;">
 
  <p>Si utiliza los datos, cítese como:</p>
 

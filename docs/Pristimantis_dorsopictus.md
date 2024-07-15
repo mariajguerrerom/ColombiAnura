@@ -59,7 +59,7 @@ function openTab(evt, tabName) {
 
 <div id="DescripcionD" class="tabcontent">
   <h3>Descripción</h3>
-  <img src="/docs/images/MHUA-A12492_Pristimantis_dorsopictus.JPG" alt="MHUA-A12478 Pristimantis dorsopictus" style="width:10cm;">
+  <img src="images/MHUA-A12492_Pristimantis_dorsopictus.JPG" alt="Pristimantis dorsopictus" style="width:10cm;">
 
   <p>Si utiliza los datos, cítese como:</p>
 
@@ -79,4 +79,14 @@ function openTab(evt, tabName) {
 
 <div id="AudiosD" class="tabcontent">
   <h3>Audios</h3>
-  <div class="au
+  <div class="audio-container">
+    <audio controls>
+      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    <audio controls>
+      <source src="Audios/JAGUAS259_20130118_125515.wav" type="audio/wav">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+  </div>
+</div>
