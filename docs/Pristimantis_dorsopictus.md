@@ -63,7 +63,7 @@ function openTab(evt, tabName) {
 
   <p>Si utiliza los datos, cítese como:</p>
 
-  <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
+  <p><strong>Patiño-Ocampo E., S. Duarte-Marín y M. Rivera-Correa.</strong> 2022. Genética, bioacústica y morfología revelan una nueva especie oculta en <i>Pristimantis dorsopictus </i> (Anura: Strabomantidae). Revista Latinoamericana de Herpetología 5 (1): 60-9. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a></p>
 </div>
 
 <div id="EspectrogramaD" class="tabcontent">

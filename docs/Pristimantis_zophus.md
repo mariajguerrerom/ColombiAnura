@@ -64,7 +64,7 @@ function openTab(evt, tabName) {
 
   <p>Si utiliza los datos, cítese como:</p>
 
-  <p><strong>Marín, C.M., C. Molina-Zuluaga, A. Restrepo, E.Cano & J.M. Daza.</strong> 2018. A new species of <i>Leucostethus</i> (Anura: Dendrobatidae) from the eastern versant of the Central Cordillera of Colombia with comments on the phylogenetic position of <i>Colostethus fraterdanieli</i>. <i>Zootaxa</i> 4461: 359--380. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a>.</p>
+  <p><strong>Patiño-Ocampo E., L.M. González-Garzón, L.M. Martínez-Toro & M. Rivera-Correa. </strong> 2022. The Advertisement Call of <i>Pristimantis zophus</i> (Lynch & Ardila, 1999) an endemic rainfrog from Colombia (Anura, Craugastoridae). South American Journal of Herpetology 23 (1): 1-6. <a href="https://doi.org/10.11646/zootaxa.4461.3.3">https://doi.org/10.11646/zootaxa.4461.3.3</a></p>
 </div>
 
 <div id="EspectrogramaZ" class="tabcontent">
