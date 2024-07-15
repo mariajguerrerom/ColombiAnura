@@ -60,7 +60,7 @@ function openTab(evt, tabName) {
 
 <div id="DescripcionJ" class="tabcontent">
   <h3>Descripción</h3>
-  <img src="/docs/images/MHUAAXXXXXX_Leucostethus_jota.JPG" alt="Leucostethus jota" style="width:10cm;">
+  <img src="images/JMD2048_Leucostethus_jota.png" alt="Leucostethus jota" style="width:10cm;">
   <p>Descripción detallada de Leucostethus jota.</p>
 </div>
 
