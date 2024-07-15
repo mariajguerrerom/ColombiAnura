@@ -37,7 +37,7 @@ h2 {
 
 # Anfibios colombianos y sus sonidos
 ### Grupo Herpetológico de Antioquia
-### version Junio 2024
+### version Julio 2024
 
 # Introducción
 
