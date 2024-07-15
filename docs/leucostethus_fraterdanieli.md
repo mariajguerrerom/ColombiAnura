@@ -59,7 +59,7 @@ function openTab(evt, tabName) {
 }
 </script>
 
-## Leucostethus fraterdanieli
+## Leucostethus jfraterdanieli
 
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'DescripcionL')">Descripción</button>
@@ -70,7 +70,7 @@ function openTab(evt, tabName) {
 
 <div id="DescripcionL" class="tabcontent">
   <h3>Descripción</h3>
-  <img src="images/Leucostethus_fraterdanieli.png" alt="MHUAA 4567" style="width:10cm;">
+  <img src="images/Leucostethus_fraterdanieli.png" alt="Leucostethus fraterdanieli" style="width:10cm;">
 
   <p>Si utiliza los datos, cítese como:</p>
 
@@ -101,3 +101,4 @@ function openTab(evt, tabName) {
     </audio>
   </div>
 </div>
+
