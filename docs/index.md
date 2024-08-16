@@ -33,6 +33,10 @@ h2 {
   font-size: 1.2em;
   color: gray;
 }
+ /* Ocultar el nombre del repositorio */
+.navbar-brand {
+  display: none;
+}
 </style>
 
 # Anfibios colombianos y sus sonidos
