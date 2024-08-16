@@ -34,7 +34,7 @@ h2 {
   color: gray;
 }
  /* Ocultar el nombre del repositorio */
-.navbar-brand {
+h1.navbar-brand {
   display: none;
 }
 </style>
