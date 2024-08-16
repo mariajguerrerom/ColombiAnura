@@ -64,7 +64,10 @@ evt.currentTarget.className += " active";
 </div>
 <div id="EspectrogramaD" class="tabcontent">
   <h3>Espectrograma</h3>
-  <p>Contenido del espectrograma para Diasporus anthrax.</p>
+   <video width="100%" height="auto" controls>
+  <source src="Espectrograms/Espectrograma.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
 </div>
 <div id="TablasD" class="tabcontent">
   <h3>Tablas</h3>

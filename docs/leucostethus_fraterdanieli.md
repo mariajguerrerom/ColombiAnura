@@ -87,8 +87,8 @@ function openTab(evt, tabName) {
 
 <div id="TablasL" class="tabcontent">
   <h3>Tablas</h3>
-  <p>Tabla de medidas</p>
-  <p>Tabla de seleccion (Raven)</p>
+  <p>Descarga tabla de medidas <a href="https://www.dropbox.com/scl/fo/3e0geqsqrevgn5h0uhyva/ABWC4lbYqpfFH-6L4Og6mQI?rlkey=tuiauwycw0lw58n9co6fncgaw&e=1&dl=0">aquí</a>.</p>
+  <p>Descarga tabla con información acústica <a href="https://www.dropbox.com/scl/fo/3e0geqsqrevgn5h0uhyva/ABWC4lbYqpfFH-6L4Og6mQI?rlkey=tuiauwycw0lw58n9co6fncgaw&e=1&dl=0">aquí</a>.</p>
 </div>
 
 <div id="AudiosL" class="tabcontent">

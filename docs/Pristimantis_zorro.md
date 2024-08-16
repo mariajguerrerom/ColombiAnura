@@ -79,7 +79,10 @@ function openTab(evt, tabName) {
 
 <div id="EspectrogramaZ" class="tabcontent">
   <h3>Espectrograma</h3>
-  <img src="Espectrograms/espectrograma1.png" alt="Espectrograma 1" style="width:100%;">
+   <video width="100%" height="auto" controls>
+  <source src="Espectrograms/Espectrograma.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
 </div>
 
 <div id="TablasZ" class="tabcontent">
