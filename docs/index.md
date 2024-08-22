@@ -37,6 +37,9 @@ h2 {
 h1.navbar-brand {
   display: none;
 }
+.header  {
+  display: none;
+}   
 </style>
 
 # Anfibios colombianos y sus sonidos
