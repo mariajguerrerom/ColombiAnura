@@ -1,7 +1,3 @@
----
-title: "Diasporus anthrax"
-output: html_document
----
 
 <style>
 /* CSS para las pestañas */
