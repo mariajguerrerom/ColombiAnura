@@ -1,3 +1,7 @@
+---
+title: ejemplo_pages
+output: html_document
+---
 
 <style>
 /* CSS para las pestañas */
