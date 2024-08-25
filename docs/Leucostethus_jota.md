@@ -1,6 +1,5 @@
 ---
-title: "Leucostethus jota"
-name: "Hola mundo"
+title: ejemplo_pages
 output: html_document
 ---
 
